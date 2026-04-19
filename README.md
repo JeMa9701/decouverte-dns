@@ -15,6 +15,7 @@
 **Les noms des serveurs de noms faisant autorité sur le domaine wildcodeschool.com sont :**
 - cash.ns.cloudflare.com
 - kim.ns.cloudflare.com  
+
 **Le serveur primaire est :**
 - wildcodeschool.com.	1800	IN	SOA	cash.ns.cloudflare.com. dns.cloudflare.com. 2400969826 10000 2400 604800 1800
 
