@@ -1,10 +1,10 @@
 ### Commande pour IPV4  
 dig www.wildcodeschool.com  
 
-; <<>> DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <<>> www.wildcodeschool.com
+;  DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu  www.wildcodeschool.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50735
+;; ->>HEADER<- opcode: QUERY, status: NOERROR, id: 50735
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -27,10 +27,10 @@ group14.sites.hscoscdn10.net. 66 IN	A	199.60.103.225
 ### Commande pour IPV6  
 dig AAAA odyssey.wildcodeschool.com  
 
-; <<>> DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <<>> AAAA odyssey.wildcodeschool.com  
+;  DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu < AAAA odyssey.wildcodeschool.com  
 ;; global options: +cmd  
 ;; Got answer:  
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34861  
+;; ->>HEADER<- opcode: QUERY, status: NOERROR, id: 34861  
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1  
 
 ;; OPT PSEUDOSECTION:  
@@ -50,10 +50,10 @@ ghs.googlehosted.com.	161	IN	AAAA	2a00:1450:400c:c0c::79
 ### Commande pour les noms de serveurs  
 dig NS wildcodeschool.com  
 
-; <<>> DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <<>> NS wildcodeschool.com  
+;  DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu < NS wildcodeschool.com  
 ;; global options: +cmd  
 ;; Got answer:  
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64728  
+;; ->>HEADER<- opcode: QUERY, status: NOERROR, id: 64728  
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1  
 
 ;; OPT PSEUDOSECTION:  
@@ -73,11 +73,11 @@ wildcodeschool.com.	86400	IN	NS	kim.ns.cloudflare.com.
 ### Commande recursive 9.9.9.9  
 dig @9.9.9.9 www.wildcodeschool.com  
 
-; <<>> DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <<>> @9.9.9.9 www.wildcodeschool.com  
+; DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <> @9.9.9.9 www.wildcodeschool.com  
 ; (1 server found)  
 ;; global options: +cmd  
 ;; Got answer:  
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35505  
+;; ->>HEADER<- opcode: QUERY, status: NOERROR, id: 35505  
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1  
 
 ;; OPT PSEUDOSECTION:  
@@ -102,9 +102,9 @@ dig @2620:fe::fe www.wildcodeschool.com
 ;; communications error to 2620:fe::fe#53: timed out
 ;; communications error to 2620:fe::fe#53: timed out
 
-; <<>> DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu <<>> @2620:fe::fe www.wildcodeschool.com
+; < DiG 9.18.39-0ubuntu0.24.04.3-Ubuntu > @2620:fe::fe www.wildcodeschool.com
 ; (1 server found)
 ;; global options: +cmd
 ;; no servers could be reached
 
-apparemment pout la derniere commande non fonctionnelle ce serait un probleme d'IPV6 sur ma machine comme bonus j'ai pas forcer :)
+apparemment pout la derniere commande non fonctionnelle ce serait un probleme d_IPV6 sur ma machine comme bonus j_ai pas forcer :)
